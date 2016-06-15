@@ -12,5 +12,5 @@ https://hub.docker.com/_/wordpress/
 https://github.com/SpiderLabs/owasp-modsecurity-crs
 
 #basic usage
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=test mysql \\
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=test mysql <br />
 docker run --name test --link mysql:mysql -p 80:80 -d ifpr/modsecwordpress
